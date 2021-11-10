@@ -1,6 +1,6 @@
 def getAppleOrange():
-    _apple= input("Please indicate how many apples you want to purchase: ")
-    _orange= input("Please indicate how many apples you want to purchase: ")
+    _apple= int(input("Please indicate how many apples you want to purchase: "))
+    _orange= int(input("Please indicate how many apples you want to purchase: "))
     return _apple, _orange
 
 def getPrice(aplamount, orgamount):
