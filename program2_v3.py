@@ -6,7 +6,11 @@ def getAppleOrange():
 def getPrice(aplamount, orgamount):
     apple_price= aplamount * 20
     orange_price= orgamount *25
+    total= apple_price + orange_price
+    return total 
 
 apple, orange= getAppleOrange()
 
 totalprice= getPrice(apple, orange)
+
+print(f"The total amount is {totalprice} pesos.")
